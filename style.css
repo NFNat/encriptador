@@ -1,0 +1,46 @@
+body{
+    background-color: #E5E5E5;
+    /* background-image: url("imagenes/encriptar-fondo.jpg");
+    background-position: center;
+    background-size: cover; */
+    font-family: 'Inter', sans-serif;
+    color:#0A3871;
+}
+main {
+    display: flex;
+    margin: auto;
+}
+
+.input{
+    margin: 10px;
+    border: none;
+    background-color: #E5E5E5;
+    color:#0A3871;
+    font-weight: bold;
+}
+
+.output{
+    margin: 10px;
+    border: none;
+    background-color: #D8DFE8;
+    color:#0A3871;
+    background-image: url("imagenes/encriptar_1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+.boton{
+    padding:10px 40px;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #0A3871;
+}
+
+.boton2{
+    padding:10px 40px;
+    border: 1px solid #0A3871;
+    border-radius: 10px;
+    color: #0A3871;
+    background-color: #D8DFE8
+}
