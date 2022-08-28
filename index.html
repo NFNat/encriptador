@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css".css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,25 +13,27 @@
     <title>Encriptador NF</title>
 
 </head>
-<body class="sarasa">
-    <header>agregar la imagen</header>
+<body>
+    <header><img src="imagenes/logo.png" alt=""></header>
     <main>
     <section>
+        <div class="entrada">
         <textarea class="input" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
-        <div>
+    
+        <!-- <div class=" botones"> -->
             <button class="boton" type="button" onclick="btnEncriptar()">Encriptar</button>
-            <button class="boton2" type="button" onclick="btnDesencriptar()">Desencriptar</button>
-
-            
-        </div>
+            <button class="boton1" type="button" onclick="btnDesencriptar()">Desencriptar</button>            
+        <!-- </div> -->
+    </div>
     </section>
 
 <section>
+    <div class="salida" >
     <textarea class="output" cols="35" rows="25" ></textarea>
     
-        <div>
+        
     <button class="boton2" type="button" onclick = "pegar()"> Copiar y Pegar</button>
-    <button class="boton2" type="button" onclick = "borrar()"> borrar todo</button>
+    <button class="boton3" type="button" onclick = "borrar()"> Borrar Todo</button>
 </div>
 </section>
 
@@ -41,7 +44,12 @@
     </section>
 </main>
 
-    <footer> aca hayque hacer un footer</footer>
+    <footer> 
+        <div class="footer-bottom">
+            <p>copyright &copy;2022 <a href="https://frontendnf.web.app/portfolio" target="_blank">Natalia Fuoco</a>  </p>
+
+        </div>
+    </footer>
 
     <script src="main.js"></script>
 </body>
